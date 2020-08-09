@@ -1,7 +1,8 @@
+
 const routes = [
     {
         path: '/',
-        name: "Home",
+        name: 'Home',
         component: () => import('../views/TextAndColors'),
     },
     {
@@ -18,11 +19,6 @@ const routes = [
         path: '/BreakPointsAndVisibility',
         name: 'ButtonAndIcon',
         component: () => import('../views/BreakpointsAndVisibility.vue')
-    },
-    {
-        path: '/todo',
-        name: 'todo',
-        component: () => import('../views/Todo/Dashboard'),
     }
 ]
 

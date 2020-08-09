@@ -2,25 +2,63 @@
   <div class="main">
 
     <h1>This is a Button & Icons page</h1>
+    <v-container>
+      <v-row align="center">
+        <!-- ボタン -->
+        <!--  size prop  -->
+        <v-col class="text-center">
+          <div class="my-2">
+            <v-btn small>small</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn>default</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn large>large</v-btn>
+          </div>
+        </v-col>
 
-    <v-btn class="pink white--text">click me</v-btn>
-    <v-btn depressed color="pink">click me</v-btn>
-    <v-btn text color="pink">click me</v-btn>
+        <!--  Text prop  -->
+        <v-col class="text-center">
+          <div class="my-2">
+            <v-btn text>text</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn text color="primary">text primary</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn text color="error">text error</v-btn>
+          </div>
+        </v-col>
 
-    <v-btn depressed class="pink white--text">
-      <v-icon left>email</v-icon>
-      <span>email me</span>
-    </v-btn>
-    <v-btn depressed class="pink white--text">
-      <v-icon left small>email</v-icon>
-      <span>email me</span>
-    </v-btn>
-    <v-btn depressed large class="pink white--text">
-      <span>email me</span>
-      <v-icon right>email</v-icon>
-    </v-btn>
-    <v-btn fab depressed small dark class="purple">
-      <v-icon>favorite</v-icon>
-    </v-btn>
+        <!--   depressed prop   -->
+        <v-col class="text-center">
+          <div class="my-2">
+            <v-btn depressed>depressed</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn depressed color="primary">depressed primary</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn depressed color="error">depressed error</v-btn>
+          </div>
+        </v-col>
+
+        <v-col class="text-center">
+          <div class="my-2">
+            <v-btn fab>fab</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn fab depressed class="grey">fab depressed grey</v-btn>
+          </div>
+          <div class="my-2">
+            <v-btn fab>
+              <v-icon>usb</v-icon>
+            </v-btn>
+          </div>
+        </v-col>
+
+      </v-row>
+    </v-container>
   </div>
 </template>

@@ -27,14 +27,19 @@ export default {
     return {
       items: [
         {
-          title: "Dashboard",
-          icon: "dashboard",
+          title: "TextAndColors",
+          icon: "invert_colors",
           to: "/"
         },
         {
-          title: "Favorite",
-          icon: "favorite",
-          to: "/"
+          title: "ButtonAndIcons",
+          icon: "insert_emoticon",
+          to: "/buttonandicons"
+        },
+        {
+          title: "BreakpointsAndVisibility",
+          icon: "flip",
+          to: "/breakpointsandvisibility"
         }
 
       ]
