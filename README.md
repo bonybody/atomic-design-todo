@@ -1,13 +1,13 @@
 # vuetify-practice
  - [Live demo](https://bonybody.github.io/vuetify-practice/)
 
-## environment
-https://img.shields.io/badge/node.js-v14.1.0-blue.svg <br>
-https://img.shields.io/badge/npm-v6.14.4-blue.svg <br>
-https://img.shields.io/badge/yarn-v1.22.4-blue.svg <br>
-https://img.shields.io/badge/@vue/cli-v4.4.6-blue.svg <br>
-https://img.shields.io/badge/vue-v2.6.11-blue.svg <br>
-https://img.shields.io/badge/vuetify-v2.3.7-blue.svg <br>
+## Environment
+![node-v14.1.0](https://img.shields.io/badge/node-v14.1.0-blue.svg)
+![npm-v6.14.4](https://img.shields.io/badge/npm-v6.14.4-blue.svg)
+![yarn-v1.22.4](https://img.shields.io/badge/yarn-v1.22.4-blue.svg)
+![@vue/cli-v4.4.6](https://img.shields.io/badge/@vue/cli-v4.4.6-blue.svg)
+![vue-v2.6.11](https://img.shields.io/badge/vue-v2.6.11-blue.svg)
+![vuetify-v2.3.7](https://img.shields.io/badge/vuetify-v2.3.7-blue.svg)
 
 
 ## Project setup
