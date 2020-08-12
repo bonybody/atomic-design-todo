@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "dev -d": "vue-cli-service serve --mode development",
+    "serve -d": "vue-cli-service serve --mode development",
     "build": "vue-cli-service build",
-    "build dev": "vue-cli-service build --mode development",
-    "l": "vue-cli-service lint"
+    "build -d": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@vue/cli": "^4.4.6",
